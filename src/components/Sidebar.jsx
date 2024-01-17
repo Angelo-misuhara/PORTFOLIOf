@@ -4,7 +4,7 @@ const Sidebar = () => {
 	return (
 		<div className=' flex flex-col'>
 			<h1 className='text-3xl font-thin'>Yocor,Angelo T.</h1>
-			<div className='mt-[15rem]'>
+			<div className='mt-[10rem]'>
 				<ul  className='flex flex-col gap-4 p-2 pt-3'>
 					<li className='text-[1.4rem] hover:text-[2.5rem]'>
 					<a href="">	Main</a>
@@ -19,7 +19,7 @@ const Sidebar = () => {
 						<a href="">About</a>
 					</li>
 				</ul>
-					<h1 className='text-4xl mt-[15rem] font-thin'>2024</h1>
+					<h1 className='text-4xl mt-[10rem] font-thin'>2024</h1>
 			</div>
 		</div>
 	);

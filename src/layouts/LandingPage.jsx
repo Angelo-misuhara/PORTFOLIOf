@@ -4,7 +4,7 @@ import MainPageLand from '../components/MainPageLand'
 
 const LandingPage = () => {
   return (
-   <div className='flex flex-wrap justify-betwee p-[5rem] '>
+   <div className='flex flex-wrap justify-between p-[5rem]  mt-6 '>
     <div className='basis-3/12'>
     <Sidebar/>
     </div>
