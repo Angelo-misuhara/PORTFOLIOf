@@ -1,28 +1,30 @@
-import React from 'react';
+
 
 const Sidebar = () => {
-	return (
-		<div className=' flex flex-col'>
-			<h1 className='text-3xl font-thin'>Yocor,Angelo T.</h1>
-			<div className='mt-[10rem]'>
-				<ul  className='flex flex-col gap-4 p-2 pt-3'>
-					<li className='text-[1.4rem] font-[#C8BAAB] hover:text-[2.5rem]'>
-					<a href="">	Main</a>
-					</li>
-						<li className='text-[1.4rem] font-[#C8BAAB] hover:text-[2.5rem]'>
-						<a href="">Projects</a>
-					</li>
-						<li className='text-[1.4rem] font-[#C8BAAB] hover:text-[2.5rem]'>
-						<a href="">Contact</a>
-					</li>
-						<li className='text-[1.4rem] font-[#C8BAAB] hover:text-[2.5rem]'>
-						<a href="">About</a>
-					</li>
-				</ul>
-					<h1 className='text-4xl mt-[10rem] font-thin'>2024</h1>
-			</div>
-		</div>
-	);
-};
+		return (
+			<>
+			
+        <div className="mb-[7rem]">
+          <div>
+            <img src="/public/images/LOGO.png" className="w-[4rem]" alt="" />
+          </div>
+          {/* <div className="hamburger-menu mb-7">
+    <input id="menu__toggle" type="checkbox" />
+    <label className="menu__btn" htmlFor="menu__toggle">
+      <span></span>
+    </label>
 
-export default Sidebar;
+    <ul className="menu__box">
+      <li><a className="menu__item" href="#">Home</a></li>
+      <li><a className="menu__item" href="#">About</a></li>
+      <li><a className="menu__item" href="#">Skills</a></li>
+      <li><a className="menu__item" href="#">Projects</a></li>
+    </ul>
+  </div> */}
+          </div>
+			
+			</>
+		)
+}
+
+export default Sidebar

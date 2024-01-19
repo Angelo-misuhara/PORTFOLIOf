@@ -5,7 +5,9 @@ import LandingPage from './layouts/LandingPage';
 function App() {
 	return (
 		<>
-			<LandingPage/>
+			<div  className="px-[1.2rem] md:px-[5rem]">
+				<LandingPage/>
+			</div>
 		</>
 	);
 }
