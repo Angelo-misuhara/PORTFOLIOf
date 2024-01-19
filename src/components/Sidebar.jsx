@@ -4,11 +4,12 @@ const Sidebar = () => {
 		return (
 			<>
 			
-        <div className="lg:mb-[7rem] mb-5">
+        <div className="lg:mb-[5rem] mb-5">
+          
           <div>
             <img src="/images/LOGO.png" className="w-[4rem]" alt="" />
           </div>
-          {/* <div className="hamburger-menu mb-7">
+          {/* <div className="hamburger-menu">
     <input id="menu__toggle" type="checkbox" />
     <label className="menu__btn" htmlFor="menu__toggle">
       <span></span>
@@ -16,12 +17,13 @@ const Sidebar = () => {
 
     <ul className="menu__box">
       <li><a className="menu__item" href="#">Home</a></li>
-      <li><a className="menu__item" href="#">About</a></li>
-      <li><a className="menu__item" href="#">Skills</a></li>
-      <li><a className="menu__item" href="#">Projects</a></li>
+      <li><a className="menu__item" href="#AboutPage">About</a></li>
+      <li><a className="menu__item" href="">Team</a></li>
+      <li><a className="menu__item" href="">Contact</a></li>
+      <li><a className="menu__item" href="">Twitter</a></li>
     </ul>
   </div> */}
-          </div>
+        </div>
 			
 			</>
 		)

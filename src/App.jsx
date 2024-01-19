@@ -1,6 +1,7 @@
 import './App.css';
 import About from './layouts/About';
 import LandingPage from './layouts/LandingPage';
+import Skills from './layouts/Skills';
 
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
 		<>
 			<div  className="px-[1.8rem] md:px-[5rem]">
 				<LandingPage />
-				<About/>
+				<About />
+				<Skills/>
 			</div>
 		</>
 	);

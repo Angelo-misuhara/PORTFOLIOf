@@ -1,6 +1,5 @@
+import { useState } from "react";
 import Sidebar from "../components/Sidebar"
-import { useEffect } from "react";
-import {useState} from "react";
 import Typewriter from "typewriter-effect";
 
 const LandingPage = () => {
@@ -50,7 +49,8 @@ const LandingPage = () => {
               </div>
             </div>
           </a>
-             <div className=" flex flex-row justify-between hover:text-[#D24545]">
+            <a href="#SkillPage">
+                <div className=" flex flex-row justify-between hover:text-[#D24545]">
               <div className="text-4xl lg:text-7xl font-bold cursor-pointer">
                  →SKILLS
               </div>
@@ -58,6 +58,7 @@ const LandingPage = () => {
                 03
               </div>
             </div>
+           </a>
              <div className=" flex flex-row justify-between hover:text-[#D24545]">
               <div className="text-4xl lg:text-7xl font-bold cursor-pointer">
                  →PROJECTS
@@ -68,7 +69,7 @@ const LandingPage = () => {
             </div>
             <div className=" flex flex-row justify-between hover:text-[#D24545]">
               <div className="text-4xl lg:text-7xl font-bold cursor-pointer">
-                 →CONTACT ME
+                 →CONTACTS
               </div>
               <div className="text-4xl lg:text-7xl font-bold cursor-pointer">
                 05
