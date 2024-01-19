@@ -4,7 +4,7 @@ const Sidebar = () => {
 		return (
 			<>
 			
-        <div className="mb-[7rem]">
+        <div className="lg:mb-[7rem] mb-5">
           <div>
             <img src="/public/images/LOGO.png" className="w-[4rem]" alt="" />
           </div>

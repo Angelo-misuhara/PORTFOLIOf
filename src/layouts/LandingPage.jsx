@@ -8,10 +8,10 @@ const LandingPage = () => {
  
   return (
     <>
-      <div>
+      <div className=""id="MainPage">
         <Sidebar />
-        <div className=" flex flex-col w-auto gap-7 h-auto">
-          <div className=" h-[9rem] pb-11 " >
+        <div className=" flex flex-col w-auto gap-7 h-auto mb-[4rem] py-[4.5rem] lg:py-[0rem]">
+          <div className=" h-[9rem] pb-11 md:h-[15rem] " >
             <h1 className="lg:text-9xl text-[3.2rem] font-bold">
               <Typewriter
                 options={{
@@ -22,7 +22,7 @@ const LandingPage = () => {
                 }}
                 onInit={(typewriter) => {
                   typewriter
-                    .typeString("FULL STACK")
+                    .typeString("FULLSTACK")
                     .typeString(" DEVELOPER")
                     .pauseFor(1500)
                     .start();
@@ -30,7 +30,8 @@ const LandingPage = () => {
               /></h1>
           </div>
           <div className="grid  grid-rows-5 grid-flow-col gap-9 italic">
-            <div className=" flex flex-row justify-between">
+            <a href="#MainPage">
+                <div className=" flex flex-row justify-between hover:text-[#D24545]">
               <div className="text-4xl lg:text-7xl font-bold cursor-pointer">
                 →MAIN
               </div>
@@ -38,7 +39,9 @@ const LandingPage = () => {
                 01
               </div>
             </div>
-            <div className=" flex flex-row justify-between">
+          </a>
+            <a href="#AboutPage">
+                <div className=" flex flex-row justify-between hover:text-[#D24545]">
               <div className="text-4xl lg:text-7xl font-bold cursor-pointer">
                 →ABOUT
               </div>
@@ -46,7 +49,8 @@ const LandingPage = () => {
                 02
               </div>
             </div>
-             <div className=" flex flex-row justify-between">
+          </a>
+             <div className=" flex flex-row justify-between hover:text-[#D24545]">
               <div className="text-4xl lg:text-7xl font-bold cursor-pointer">
                  →SKILLS
               </div>
@@ -54,7 +58,7 @@ const LandingPage = () => {
                 03
               </div>
             </div>
-             <div className=" flex flex-row justify-between">
+             <div className=" flex flex-row justify-between hover:text-[#D24545]">
               <div className="text-4xl lg:text-7xl font-bold cursor-pointer">
                  →PROJECTS
               </div>
@@ -62,7 +66,7 @@ const LandingPage = () => {
                 04
               </div>
             </div>
-            <div className=" flex flex-row justify-between">
+            <div className=" flex flex-row justify-between hover:text-[#D24545]">
               <div className="text-4xl lg:text-7xl font-bold cursor-pointer">
                  →CONTACT ME
               </div>
