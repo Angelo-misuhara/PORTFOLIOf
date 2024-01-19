@@ -4,10 +4,10 @@ const Sidebar = () => {
 		return (
 			<>
 			
-        <div className="lg:mb-[5rem] mb-5">
+        <div className="lg:mb-[5rem] mb-5 sticky top-0">
           
-          <div>
-            <img src="/images/LOGO.png" className="w-[4rem]" alt="" />
+          <div className="sticky top-0">
+            <a href="#"><img src="/images/LOGO.png" className="w-[4rem]" alt="" /></a>
           </div>
           {/* <div className="hamburger-menu">
     <input id="menu__toggle" type="checkbox" />

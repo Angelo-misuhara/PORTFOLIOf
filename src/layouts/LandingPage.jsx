@@ -8,7 +8,6 @@ const LandingPage = () => {
   return (
     <>
       <div className=""id="MainPage">
-        <Sidebar />
         <div className=" flex flex-col w-auto gap-7 h-auto mb-[4rem] py-[4.5rem] lg:py-[0rem]">
           <div className=" h-[9rem] pb-11 md:h-[15rem] " >
             <h1 className="lg:text-9xl text-[3.2rem] font-bold">
