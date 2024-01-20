@@ -4,7 +4,7 @@ const Skills = () => {
  return (
   <>
    <div className='h-auto lg:pt-[11rem] mt-[7rem] ' id='SkillPage'>
-    <div className='flex flex-row justify-between text-[#D24545]'>
+    <div className='flex flex-row justify-between text-[#D24545] '>
      <h1 className='lg:text-8xl text-[3.2rem] font-bold italic'>
       SKILLS
      </h1>

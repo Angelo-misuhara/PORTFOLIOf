@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
    <div className='lg:pt-[12rem] mt-[7rem] h-auto flex flex-col gap-8' id='AboutPage'>
-    <div className='flex flex-row justify-between'>
+    <div className='flex flex-row justify-between '>
      <h1 className='lg:text-8xl text-[3.2rem] font-bold italic text-[#D24545]'>
       ABOUT
         </h1>

@@ -7,7 +7,7 @@ const Sidebar = () => {
         <div className="lg:mb-[5rem] mb-5 sticky top-0">
           
           <div className="sticky top-0">
-            <a href="#"><img src="/images/LOGO.png" className="w-[4rem]" alt="" /></a>
+            <a href="#"><img src="/images/LOGO.png" className="lg:w-[4rem] w-[1.8rem]" alt="" /></a>
           </div>
           {/* <div className="hamburger-menu">
     <input id="menu__toggle" type="checkbox" />
