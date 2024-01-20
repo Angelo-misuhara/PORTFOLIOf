@@ -6,10 +6,10 @@ const projectsData = [
  { src: '/images/veri.png', name: 'Veri-sure', description: 'A activity for AIS', link: 'https://veri-sure.vercel.app/' },
  { src: '/images/lese.png', name: 'Lesserafim', description: ' A site for my idols', link: 'https://lesserafim.vercel.app/' },
  { src: '/images/dict.png', name: 'D-app', description: 'Dictionary site', link: 'https://dictioanry.vercel.app/' },
- { src: '/images/new.png', name: 'N-app', description: 'site that gives world news', link: 'https://example.com/project1' },
- { src: '', name: 'Project 1', description: 'Short description for Project 1', link: 'https://example.com/project1' },
- { src: '', name: 'Project 1', description: 'Short description for Project 1', link: 'https://example.com/project1' },
- { src: '', name: 'Project 1', description: 'Short description for Project 1', link: 'https://example.com/project1' },
+ { src: '/images/new.png', name: 'N-app', description: 'site that gives world news', link: 'https://n-app-xnkp.vercel.app/' },
+ { src: '/images/pokeap.png', name: 'PokeApp', description: 'see the abilities of your pokemon!', link: 'https://pkmon.netlify.app/' },
+ { src: '/images/img.png', name: 'Imgsrch-app', description: 'find your fav photos!', link: 'https://srchimg.netlify.app/' },
+ { src: '/images/calcu.png', name: 'Calculator', description: 'my very 1st Project', link: 'https://angelo-misuhara.github.io/Calculator/' },
           
 ];
 
@@ -26,7 +26,7 @@ const Projects = () => {
 
   return (
     <>
-    <div className='ProjectPage'id='ProjectPage'>
+    <div className='ProjectPage py-11'id='ProjectPage'>
        <div className='flex flex-row justify-between lg:mt-[15rem] mt-[9rem] pb-9'id='ProjectPage'>
      <h1 className='lg:text-9xl text-[3.2rem] font-bold italic text-[#D24545]'>
       PROJECTS
