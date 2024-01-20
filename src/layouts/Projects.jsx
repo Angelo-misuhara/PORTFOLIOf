@@ -43,7 +43,7 @@ const Projects = () => {
               onClick={() => handleProjectClick(index)}
             >
               <img className="min-h-full max-w-full rounded" src={project.src} alt={`Project ${index + 1}`} />
-              {(expandedProject === index || (window.innerWidth <= 768 && expandedProject !== null)) && (
+              {(expandedProject === index || (window.innerWidth >= 468 && expandedProject !== null)) && (
                 <div className="absolute inset-0 flex rounded items-center justify-center transition-colors duration-1500 bg-black bg-opacity-40 text-[#FFF4F4] p-4 opacity-100">
                   <div className=' flex flex-col gap-4'>
                     <h3 className="text-lg font-bold">{project.name}</h3>
