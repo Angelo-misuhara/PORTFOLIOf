@@ -10,6 +10,7 @@ const projectsData = [
  { src: '/images/pokeap.png', name: 'PokeApp', description: 'see the abilities of your pokemon!', link: 'https://pkmon.netlify.app/' },
  { src: '/images/img.png', name: 'Imgsrch-app', description: 'find your fav photos!', link: 'https://srchimg.netlify.app/' },
  { src: '/images/calcu.png', name: 'Calculator', description: 'my very 1st Project', link: 'https://angelo-misuhara.github.io/Calculator/' },
+ { src: '/images/todo(f.e).png', name: 'Calculator', description: 'my  1st todolist', link: 'https://td-lst.vercel.app/' },
           
 ];
 
@@ -44,7 +45,7 @@ const Projects = () => {
             >
               <img className="min-h-full max-w-full rounded" src={project.src} alt={`Project ${index + 1}`} />
               {(expandedProject === index || (window.innerWidth >= 468 && expandedProject !== null)) && (
-                <div className="absolute inset-0 flex rounded items-center justify-center transition-colors duration-1500 bg-black bg-opacity-40 text-[#FFF4F4] p-4 opacity-100">
+                <div className="absolute inset-0 flex rounded items-center justify-center transition-colors duration-1500 bg-black bg-opacity-50 text-[#FFF4F4] p-4 opacity-100">
                   <div className=' flex flex-col gap-4'>
                     <h3 className="text-lg font-bold">{project.name}</h3>
                <p className="text-sm">{project.description}</p>
