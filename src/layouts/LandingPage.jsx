@@ -58,7 +58,8 @@ const LandingPage = () => {
               </div>
             </div>
            </a>
-             <div className=" flex flex-row justify-between hover:text-[#D24545]">
+            <a href="#ProjectPage">
+                <div className=" flex flex-row justify-between hover:text-[#D24545]">
               <div className="text-4xl lg:text-7xl font-bold cursor-pointer">
                  →PROJECTS
               </div>
@@ -66,6 +67,7 @@ const LandingPage = () => {
                 04
               </div>
             </div>
+           </a>
             <div className=" flex flex-row justify-between hover:text-[#D24545]">
               <div className="text-4xl lg:text-7xl font-bold cursor-pointer">
                  →CONTACTS

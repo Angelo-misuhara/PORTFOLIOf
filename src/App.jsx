@@ -2,6 +2,7 @@ import './App.css';
 import Sidebar from './components/Sidebar';
 import About from './layouts/About';
 import LandingPage from './layouts/LandingPage';
+import Projects from './layouts/Projects';
 import Skills from './layouts/Skills';
 
 
@@ -12,7 +13,8 @@ function App() {
 				<Sidebar/>
 				<LandingPage />
 				<About />
-				<Skills/>
+				<Skills />
+				<Projects/>
 			</div>
 		</>
 	);

@@ -4,16 +4,16 @@ const Skills = () => {
  return (
   <>
    <div className='h-auto lg:pt-[11rem] mt-[7rem] ' id='SkillPage'>
-    <div className='flex flex-row justify-between text-[#D24545] '>
-     <h1 className='lg:text-8xl text-[3.2rem] font-bold italic'>
+    <div className='flex flex-row justify-between text-[#D24545]'>
+     <h1 className='lg:text-9xl text-[3.2rem] font-bold italic'>
       SKILLS
      </h1>
-     <h1 className='lg:text-8xl text-[3.2rem] font-bold italic'>
+     <h1 className='lg:text-9xl text-[3.2rem] font-bold italic'>
       03
      </h1>
     </div>
    
-    <div className='flex flex-col gap-7 mt-9 lg:px-[12rem]'>
+    <div className='flex flex-col gap-7 mt-9 lg:px-[4rem]'>
      <div className=" flex flex-row justify-between ">
               <div className="text-4xl lg:text-5xl font-bold">
                  →JAVA
