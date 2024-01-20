@@ -4,7 +4,7 @@ const Sidebar = () => {
 		return (
 			<>
 			
-        <div className="lg:mb-[5rem] mb-5 sticky top-0">
+        <div className="lg:mb-[5rem] mb-2 sticky top-0">
           
           <div className="sticky top-0">
             <a href="#"><img src="/images/LOGO.png" className="lg:w-[4rem] w-[1.8rem]" alt="" /></a>
