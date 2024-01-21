@@ -36,37 +36,37 @@ const Projects = () => {
       03
      </h1>
     </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-7  gap-8  lg:px-11">
-          {projectsData.map((project, index) => (
-            <div
-              key={index}
-              className="relative transition-transform duration-300 transform hover:scale-105"
-              onClick={() => handleProjectClick(index)}
-            >
-              <img className="min-h-full max-w-full rounded" src={project.src} alt={`Project ${index + 1}`} />
-              {(expandedProject === index || (window.innerWidth >= 468 && expandedProject !== null)) && (
-                <div className="absolute inset-0 flex rounded items-center justify-center transition-colors duration-1500 bg-black bg-opacity-50 text-[#FFF4F4] p-4 opacity-100">
-                  <div className=' flex flex-col gap-4'>
-                    <h3 className="text-lg font-bold">{project.name}</h3>
-               <p className="text-sm">{project.description}</p>
-                <a href={project.link} className="font-bold text-[#3AB0FF]" target="_blank" rel="noopener noreferrer">
-  <button
-    type="button"
-    className="text-white bg-[#1da1f2] hover:bg-[#1da1f2]/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 me-2 mb-2"
-  >
-    View Demo
-  </button>
-</a>
+        <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-7 gap-8 lg:px-11">
+  {projectsData.map((project, index) => (
+    <div
+      key={index}
+      className="relative transition-transform duration-300 transform hover:scale-105"
+      onClick={() => handleProjectClick(index)}
+    >
+      <img className="min-h-full max-w-full rounded" src={project.src} alt={`Project ${index + 1}`} />
+      {(expandedProject === index ) && (
+        <div className="absolute inset-0 flex rounded items-center justify-center transition-colors duration-1500 bg-black bg-opacity-50 text-[#FFF4F4] p-4 opacity-100">
+          <div className='flex flex-col gap-4'>
+            <h3 className="text-lg font-black">{project.name}</h3>
+            <p className="text-sm">{project.description}</p>
+            <div>
+              
+              <button
+                type="button"
+                className=" text-white bg-[#1da1f2] hover:bg-[#1da1f2]/90 focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center focus:ring-[#1da1f2]/55 me-2 mb-2"
+                >
+                   <a  href={project.link} className="font-semiBold text-white " target="_blank" rel="noopener noreferrer">View Demo</a>
 
-                      
-              
-              
-                  </div>
-                </div>
-              )}
-            </div>
-          ))}
+              </button>
+            
+          </div>
+          </div>
         </div>
+      )}
+    </div>
+  ))}
+</div>
+
       </div>
     </>
   );
