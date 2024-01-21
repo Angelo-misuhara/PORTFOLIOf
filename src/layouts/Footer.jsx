@@ -3,7 +3,8 @@
 const Footer = () => {
   return (
     <>
-     <footer className="p-4 lg:mt-[10rem]  sm:p-6 ">
+          <div>
+               <footer className="p-4 lg:mt-[10rem]  sm:p-6 ">
     <div className="mx-auto ">
         <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
@@ -46,6 +47,7 @@ const Footer = () => {
         </div>
     </div>
 </footer>
+    </div>
     </>
   )
 }
