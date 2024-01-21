@@ -40,7 +40,7 @@ const ContactPage = () => {
               <input type="text" id="email" name="user_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="Juan dela cruz" required />
             </div>
             <div className="mb-5">
-              <label htmlFor="password" className="block font-bold mb-2 text-sm  text-gray-900 ">Your password</label>
+              <label htmlFor="password" className="block font-bold mb-2 text-sm  text-gray-900 ">Your Email</label>
               <input type="email" placeholder="Juandelacruz@gmail.com" name="user_email" id="password" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required />
             </div>
             <div className="flex items-start mb-5">
