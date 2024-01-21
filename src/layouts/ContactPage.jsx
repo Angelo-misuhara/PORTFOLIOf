@@ -24,7 +24,7 @@ const ContactPage = () => {
   return (
     <>
       <div className='h-screen flex flex-col  ' id='ContactPage'>
-        <div className='flex flex-row justify-between lg:mt-[15rem] mt-[9rem] pb-9' id='ProjectPage'>
+        <div className='flex flex-row justify-between lg:mt-[15rem] mt-[2rem] pb-9' id='ProjectPage'>
           <h1 className='lg:text-9xl text-[3.2rem] font-bold italic text-[#D24545]'>
             CONTACT
           </h1>

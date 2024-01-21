@@ -3,8 +3,8 @@
 const Footer = () => {
   return (
     <>
-     <footer className="p-4  sm:p-6 ">
-    <div className="mx-auto mt-11 h-auto max-w-screen-xl">
+     <footer className="p-4 lg:mt-[10rem]  sm:p-6 ">
+    <div className="mx-auto ">
         <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
                 <a href="#" className="flex items-center">
