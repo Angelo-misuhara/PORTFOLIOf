@@ -2,15 +2,13 @@ import React, { useState } from 'react';
 
 const projectsData = [
   { src: '/images/be.png', name: 'Todo(BackEnd)', description: 'Backend for todolist', link: 'https://github.com/Angelo-misuhara/mytodo-BE' },
- { src: '/images/todof.png', name: 'todo(FrontEnd)', description: 'FrontEnd for todolist(not finish)', link: 'https://mytodo-fe.vercel.app/' },
+ { src: '/images/todof.png', name: 'Todo(FrontEnd)', description: 'FrontEnd for todolist', link: 'https://mytodo-fe.vercel.app/' },
  { src: '/images/veri.png', name: 'Veri-sure', description: 'A activity for AIS', link: 'https://veri-sure.vercel.app/' },
  { src: '/images/lese.png', name: 'Lesserafim', description: ' A site for my idols', link: 'https://lesserafim.vercel.app/' },
  { src: '/images/dict.png', name: 'D-app', description: 'Dictionary site', link: 'https://dictioanry.vercel.app/' },
  { src: '/images/new.png', name: 'N-app', description: 'site that gives world news', link: 'https://n-app-xnkp.vercel.app/' },
  { src: '/images/pokeap.png', name: 'PokeApp', description: 'see the abilities of your pokemon!', link: 'https://pkmon.netlify.app/' },
  { src: '/images/img.png', name: 'Imgsrch-app', description: 'find your fav photos!', link: 'https://srchimg.netlify.app/' },
- { src: '/images/calcu.png', name: 'Calculator', description: 'my very 1st Project', link: 'https://angelo-misuhara.github.io/Calculator/' },
- { src: '/images/todo(f.e).png', name: 'Calculator', description: 'my  1st todolist', link: 'https://td-lst.vercel.app/' },
           
 ];
 
